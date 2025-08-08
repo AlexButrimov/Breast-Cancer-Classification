@@ -1,0 +1,43 @@
+{
+  "best_params": {
+    "C": 10,
+    "penalty": "l1"
+  },
+  "cv_best_accuracy": 0.9604,
+  "test_accuracy": 0.9649,
+  "roc_auc": 0.9954,
+  "per_class": {
+    "malignant": {
+      "precision": 0.9524,
+      "recall": 0.9524,
+      "f1": 0.9524
+    },
+    "benign": {
+      "precision": 0.9722,
+      "recall": 0.9722,
+      "f1": 0.9722
+    }
+  },
+  "confusion_matrix": [
+    [
+      40,
+      2
+    ],
+    [
+      2,
+      70
+    ]
+  ],
+  "selected_features": [
+    "mean radius",
+    "mean perimeter",
+    "mean area",
+    "mean concavity",
+    "mean concave points",
+    "worst radius",
+    "worst perimeter",
+    "worst area",
+    "worst concavity",
+    "worst concave points"
+  ]
+}
